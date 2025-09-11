@@ -1,8 +1,26 @@
-# Compiled Output
+# Compiled output
 /dist
 /tmp
 /out-tsc
-/bazel-out
 
-# Node
+# Dependencies
 /node_modules
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.DS_Store
+.project
+.classpath
+.c9/
+
+# Miscellaneous
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
