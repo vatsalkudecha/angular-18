@@ -1,0 +1,8 @@
+# Compiled Output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
