@@ -1,0 +1,33 @@
+<p>data-binding works!</p>
+<div class="row">
+    <div class="col-6">
+        One Way Data-Binding from: .ts to .html 
+    </div>
+    <div class="col-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-6  bg-success">
+                <h3>Interpolation</h3>
+                CourseName: <h4>{{courseName}}</h4>
+                <div>{{inputType}}</div>
+                <input type="text" value="{{courseName}}" placeholder="Enter text" />
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="row">
+            <div class="col-6  bg-success">
+                <h3>Property Binding</h3>
+                <input [type]="inputType" [value]="courseName" />
+            </div>
+        </div>
+    </div> 
+    <div class="col-4">
+        <h3>Event Binding : .html -> .ts</h3>
+        <button class="btn btn-success" (click)="showAlert('Welcome to Angular 18')">Show Welcome</button>
+        <span (click)="showAlert('This is from Span')">CLick me</span>
+    </div>
+</div>
